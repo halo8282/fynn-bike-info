@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 15px;
+}
+
+h1 {
+    flex-grow: 1;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+nav a:hover, nav a.active {
+    background-color: white;
+    color: red;
+}
+
+main {
+    padding: 20px;
+}
+
+.bike-list {
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.bike {
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
